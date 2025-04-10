@@ -1,5 +1,5 @@
 body {
-    background-color: #f8e8ff;
+    background-color: #dfe58b;
     font-family: Arial, sans-serif;
     text-align: center;
 }
@@ -28,6 +28,20 @@ body {
     transition: transform 0.3s;
 }
 .egg2:hover {
+    transform: scale(1.1);
+}
+
+.egg3 {
+    display: inline-block;
+    width: 100px;
+    height: 130px;
+    background: linear-gradient(45deg, #1b4729, #499160);
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.egg3:hover {
     transform: scale(1.1);
 }
 
