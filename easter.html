@@ -11,10 +11,10 @@
     
     <div class="egg" onclick="alert('You found a chocolate egg! 🍫')"></div>
     <div class="egg" onclick="document.getElementById('secretBunny').style.display='block'"></div>
-    <div class="egg" onclick="this.style.background='rainbow'"></div>
+    <div class="egg3" onclick="this.style.background='rainbow'"></div>
     <div class="egg2" onclick="alert('Another chocolate egg! YAY!!🍫')"></div>
     <div class="egg2" onclick="alert('Nothing inside this one😔')"></div>
-    <div class="egg2" onclick="this.style.background='rainbow'"></div>
+    <div class="egg3" onclick="this.style.background='rainbow'"></div>
 
     <p class="hidden-basket">🧺 Secret Easter Basket Found! 🧺</p>
     
@@ -26,7 +26,7 @@
         document.addEventListener('keydown', (e) => {
             keys.push(e.key);
             if (keys.join(',').includes('k,a,n,g,a,r,o,o')) {
-                document.body.style.background = 'linear-gradient(90deg, blue,orange)';
+                document.body.style.background = 'linear-gradient(90deg, blue,green)';
             }
         });
     </script>
